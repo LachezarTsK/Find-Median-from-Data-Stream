@@ -21,7 +21,7 @@ class MedianFinder {
      greater<> instead of greater<int>
      Applying transparent operator for Standard Library containers that accept a comparator type 
      can be more performant compared to using a non-transparent operator.
-     Although it is a customized priority queue, it is a wrapper class over std::priority_queue 
+     Although it is a customized priority queue, it extends std::priority_queue 
      and uses all its functionalities.
     */
     CustomizedPriorityQueue<int, vector<int>, greater<>> largerNumbers;
